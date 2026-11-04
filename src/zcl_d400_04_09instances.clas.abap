@@ -1,0 +1,22 @@
+CLASS zcl_d400_04_09instances DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_D400_04_09INSTANCES IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+  DATA connection TYPE REF TO lcl_connection.
+
+  ENDMETHOD.
+ENDCLASS.
